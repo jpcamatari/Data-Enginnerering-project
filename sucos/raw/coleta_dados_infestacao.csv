@@ -1,0 +1,21 @@
+﻿ID,SAFRA,Data,Fazenda,Talhao,Localizacao,TipoFruta,SinaisPragas,Infestação (%),ResponsavelCampo
+1,2025,09/01/2025,Fazenda Sol,100,"-22.058,-48.181",Laranja,Nenhum,30,João Silva
+2,2025,10/01/2025,Fazenda Lua,102,"-22.060,-48.185",Laranja,Pulgões,55,Maria Souza
+3,2025,11/01/2025,Fazenda Sol,101,"-22.058,-48.181",Laranja,Mosca-da-fruta,75,João Silva
+4,2025,12/01/2025,Fazenda Estrela,-104,"-22.062,-48.190",Laranja,Nenhum,150,Carlos Lima
+5,2025,13/01/2025,Fazenda Lua,103,"-22.060,-48.185",Laranja,Pulgões,3,Maria Souza
+6,2025,14/01/2025,Fazenda Sol,100,"-22.058,-48.181",Laranja,Mosca-da-fruta,1,João Silva
+7,2025,15/01/2025,Fazenda Estrela,105,"-22.062,-48.190",Laranja,Nenhum,0,Carlos Lima
+8,2025,16/01/2025,Fazenda Lua,102,"-22.060,-48.185",Laranja,Nenhum,0,Maria Souza
+9,2025,17/01/2025,Fazenda Sol,101,"-22.058,-48.181",Laranja,Nenhum,0,João Silva
+10,2025,18/01/2025,Fazenda Estrela,104,"-22.062,-48.190",Laranja,Mosca-da-fruta,0,Carlos Lima
+11,2025,19/01/2025,Fazenda Lua,-103,"-22.060,-48.185",Laranja,Nenhum,13,Maria Souza
+12,2025,20/01/2025,Fazenda Sol,100,"-22.058,-48.181",Laranja,Pulgões,0,João Silva
+13,2025,21/01/2025,Fazenda Estrela,105,"-22.062,-48.190",Laranja,Nenhum,0,Carlos Lima
+14,2025,22/01/2025,Fazenda Lua,102,"-22.060,-48.185",Laranja,Mosca-da-fruta,10,Maria Souza
+15,2025,23/01/2025,Fazenda Sol,101,"-22.058,-48.181",Laranja,Nenhum,20,João Silva
+16,2025,24/01/2025,Fazenda Estrela,104,"-22.062,-48.190",Laranja,Pulgões,50,Carlos Lima
+7,2025,25/01/2025,Fazenda Lua,103,"-22.060,-48.185",Laranja,Nenhum,110,Maria Souza
+18,2025,26/01/2025,Fazenda Sol,100,"-22.058,-48.181",Laranja,Mosca-da-fruta,70,João Silva
+19,2025,27/01/2025,Fazenda Estrela,105,"-22.062,-48.190",Laranja,Pulgões,0,Carlos Lima
+20,2025,,Fazenda Lua,102,"-22.060,-48.185",Laranja,Nenhum,0,Maria Souza
