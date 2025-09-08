@@ -27,7 +27,7 @@ o que acarretaria em inconsistencia nos ID da tabela historico.
 
 ## Schema tabelas
 
-![schema](projeto eng de dados.drawio.png)
+![schema](tables.png)
 
 ## PowerApps
 
@@ -50,6 +50,7 @@ O wireframe do app com o fluxo pode ser visualizado no lingk a seguir
 | pc_infestacao    | FLOAT     | Percentual de infestação (%)            | Valores inválidos ajustados                      | Infestação (%)   |
 | nm_resp_campo    | STRING    | Nome do responsável pela inspeção       | Padronização de texto                            | ResponsavelCampo |
 | dh_insercao      | DATETIME  | Data/hora de inserção no histórico      | Inserido no momento do processamento             | Pipeline ETL     |
+
 
 
 
