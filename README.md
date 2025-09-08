@@ -13,6 +13,16 @@ Essa documentação, tem como objetivo documentar todas as tabelas e a arquitetu
 
 ## Arquitetura de dados
 
+#### RAW ZONE:
+As tabelas na raw recebem o tipo de carga Charge Full
+
+#### TRUSTED ZONE:
+As tabelas na trusted recebem o tipo de carga SCD – Slowly Changing Dimension Tipo 2, essa escolha foi feita devido a possibilidade de visualizar versoes de um registro
+
+#### REFINED ZONE:
+Nessa camada, utilizamos Insert, e passamos a utilizar a chave primaria com as colunas 'dt_colheita', 'nm_fazenda', 'cd_talhao', 'ds_fruta', devido a junção de mais de uma tabela,
+o que acarretaria em inconsistencia nos ID da tabela historico.
+
 ![Design](design.jpg)
 
 ## Schema tabelas
@@ -40,6 +50,7 @@ O wireframe do app com o fluxo pode ser visualizado no lingk a seguir
 | pc_infestacao    | FLOAT     | Percentual de infestação (%)            | Valores inválidos ajustados                      | Infestação (%)   |
 | nm_resp_campo    | STRING    | Nome do responsável pela inspeção       | Padronização de texto                            | ResponsavelCampo |
 | dh_insercao      | DATETIME  | Data/hora de inserção no histórico      | Inserido no momento do processamento             | Pipeline ETL     |
+
 
 
 
